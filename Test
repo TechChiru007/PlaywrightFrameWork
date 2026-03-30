@@ -2,3 +2,34 @@ Notes
 1.we need nodejs
 2.we need vs code
 
+cmd to set playwright
+
+npm init playwright@latest
+
+cmd for ai agents
+
+npx playwright init-agents --loop=vscode
+ 
+for execution we require .spec.ts file
+
+npx playwright test  //to run all tests
+
+  npx playwright test
+    Runs the end-to-end tests.
+
+  npx playwright test --ui
+    Starts the interactive UI mode.
+
+  npx playwright test --project=chromium
+    Runs the tests only on Desktop Chrome.
+
+  npx playwright test example
+    Runs the tests in a specific file.
+
+  npx playwright test --debug
+    Runs the tests in debug mode.
+
+  npx playwright codegen
+    Auto generate tests with Codegen.
+
+  npx playwright show-report
