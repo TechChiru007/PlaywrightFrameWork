@@ -1,0 +1,1 @@
+ export const websiteurl = 'https://courses.thetestingacademy.com/';
